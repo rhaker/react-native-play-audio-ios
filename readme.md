@@ -29,6 +29,7 @@ var { NativeModules } = React;
 var { RNPlayAudio } = NativeModules;
 
 // Start Audio
+
 RNPlayAudio.startAudio(
 
     "test.wav", // filename
@@ -48,6 +49,7 @@ RNPlayAudio.startAudio(
 );
 
 // Stop Audio
+
 RNPlayAudio.stopAudio(
 
     "test.wav", // filename
@@ -68,6 +70,7 @@ RNPlayAudio.stopAudio(
 
 
 // Pause Audio
+
 RNPlayAudio.pauseAudio(
 
     "test.wav", // filename
