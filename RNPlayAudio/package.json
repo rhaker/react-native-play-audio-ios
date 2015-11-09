@@ -1,6 +1,6 @@
 {
   "name": "react-native-play-audio-ios",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A react-native interface for controlling audio on an ios device. Play, stop, and pause.",
   "main": "index.ios.js",
   "scripts": {
@@ -27,8 +27,8 @@
     "url": "https://github.com/rhaker/react-native-play-audio-ios/issues"
   },
   "homepage": "https://github.com/rhaker/react-native-play-audio-ios",
-  "dependencies": {
-    "react-native": "^0.12.0"
+  "peerDependencies": {
+    "react-native": ">=0.12.0"
   },
   "devDependencies": {}
 }
